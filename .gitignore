@@ -1,3 +1,6 @@
-.idea
-TickerConfig.py
-venv/
+*.html
+*.pyc
+*.yaml
+*.log
+.idea/
+tkcode.png

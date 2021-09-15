@@ -9,22 +9,22 @@ TICKET_TYPE = 2
 
 # 出发日期(list) "2018-01-06", "2018-01-07"
 STATION_DATES = [
-    "2020-12-25"
+    "2021-10-02"
 ]
 # 预售放票时间, 如果是捡漏模式，可以忽略此操作
-OPEN_TIME = "12:43:00"
+OPEN_TIME = "08:59:00"
 
 
 # 填入需要购买的车次(list)，"G1353"
 # 修改车次填入规则，注：(以前设置的车次逻辑不变)，如果车次填入为空，那么就是当日乘车所有车次都纳入筛选返回
 # 不填车次是整个list为空才算，如果不是为空，依然会判断车次的，这种是错误的写法 [""], 正确的写法 []
-STATION_TRAINS = []
+STATION_TRAINS = ['D2208']
 
 # 出发城市，比如深圳北，就填深圳就搜得到
-FROM_STATION = "杭州"
+FROM_STATION = "成都东"
 
 # 到达城市 比如深圳北，就填深圳就搜得到
-TO_STATION = "商丘"
+TO_STATION = "重庆"
 
 # 座位(list) 多个座位ex:
 # "商务座",
@@ -40,19 +40,19 @@ SET_TYPE = ["二等座"]
 
 # 当余票小于乘车人，如果选择优先提交，则删减联系人和余票数一致在提交
 # bool
-IS_MORE_TICKET = True
+IS_MORE_TICKET = False
 
 # 乘车人(list) 多个乘车人ex:
 # "张三",
 # "李四"
-TICKET_PEOPLES = [""]
+TICKET_PEOPLES = ['','','','']
 
 # 12306登录账号
-USER = "不需要配置aa"
+USER = "不需要配置"
 PWD = "不需要配置"
-tk = ""
-RAIL_EXPIRATION = "1608974698285"
-RAIL_DEVICEID = "gtJfNuBFUBPOakMf1Ujs_h7pUWCjoJik-SsmL78AOHgmfFki0edSZmxdwyuEi4Hpj94MAAu-JKtQNIZA8fSh_kwlHBRt7mAcG9lO5NXcJIfo05u8gr3_mwCbhwUFBXOeTl6GuJpTke-5_s-LU1mtZWMbIGXJbAtN"
+tk = "fff"
+RAIL_EXPIRATION = "fff"
+RAIL_DEVICEID = "fff"
 
 
 # 加入小黑屋时间默认为5分钟，此功能为了防止僵尸票导致一直下单不成功错过正常的票
